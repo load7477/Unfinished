@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+body {
+    /* background-image: url('https://itcm.co.kr/files/attach/images/813/399/215/93e30d4fde2a0e7ad086277d7d0b60b4.jpg'); */
+}
+
+#Assets {
+    position: absolute;
+    right: 10px;
+    top: 5px;
+}
+
+#Assets > .Cash, .Bank, .Credit {
+    display: flex;
+    width: 230px;
+    height: 37px;
+    margin-top: 3px;
+    border-radius: 3px;
+    background: rgba(0, 0, 0, 0.76);
+}
+
+.Icon {
+    color: #efefef;
+    width: 30px;
+    height: 25px;
+    margin-top: 6px;
+    margin-left: 5px;
+    text-align: center;
+    border-radius: 5px;
+    background: rgb(141, 141, 141);
+}
+
+.Amount {
+    display: flex;
+    color: #efefef;
+    margin-top: 8px;
+    margin-left: auto;
+    margin-right: 5px;
+}
+
+.Amount > span {
+    font-size: 13.5px;
+}
+
+.Voice {
+    position: absolute;
+    right: 0px;
+    display: flex;
+    font-size: 13px;
+    width: 100px;
+    height: 23px;
+    margin-top: 3px;
+    border-radius: 3px;
+    background: rgba(0, 0, 0, 0.76);
+}
+
+.Voice > .VoiceMain {
+    margin-top: 1px;
+}
+
+.Voice > .VoiceMain > span {
+    display: flex;
+    color: #efefef;
+    margin-left: 5px;
+}
+
+.Street {
+    width: 40px;
+    height: 17px;
+    margin-left: 3px;
+    margin-top: 1.8px;
+    text-align: center;
+    border-radius: 3px;
+    background: rgb(141, 141, 141);
+}
+
+.Street > span {
+    margin-top: -1.4px;
+}
